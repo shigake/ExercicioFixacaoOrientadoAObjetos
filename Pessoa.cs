@@ -17,8 +17,13 @@ namespace Exercicios
         public decimal Peso { get; set; }
         public int Level { get; set; }
 
-        public int RetornaLevel(Pessoa pessoa) { 
+        public int RetornaLevel() { 
             return Level;
+        }
+
+        public string RetornaNome()
+        {
+            return Nome;
         }
 
     }
