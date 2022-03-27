@@ -39,6 +39,8 @@ namespace Exercicios
             //profissão da pessoa nova
             var NovoJob = daniela.RetornaProfissao(monica);
 
+            var exemploPessoaComum = daniela.RetornaProfissao();
+
 
             //habilidade do heroi novo
             var NovoHeroiHabilidade = zecao.RetornaHabilidade(zecao);
